@@ -104,29 +104,6 @@
 
 <?php
 
-$a = readline("Enter the First Number : ");
-$b = readline("Enter the Second Number : ");
-$ch = readline();
-switch ($ch) {
-    case '+':
-        echo ("$a + $b = " . ($a + $b));
-        break;
-    case '-':
-        echo ("$a - $b = " . ($a - $b));
-        break;
-    case '*':
-        echo ("$a * $b = " . ($a * $b));
-        break;
-    case '/':
-        echo ("$a / $b = " . ($a / $b));
-        break;
-    case '%':
-        echo ("$a % $b = " . ($a % $b));
-        break;
-    case '**':
-        echo ("$a ** $b = " . ($a ** $b));
-        break;
-    default:
-        break;
+
 }
 ?>
