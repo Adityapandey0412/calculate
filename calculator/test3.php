@@ -25,10 +25,8 @@ if (is_numeric($first_num) && is_numeric($second_num)) {
         case "Divide":
             $result = $first_num / $second_num;
             break;
-        case "c":
-            $first_num = '';
-            $second_num = '';
-            $result = ""  ;
+        case "c": 
+          $result = ""  ;
             break;
     }
 }
